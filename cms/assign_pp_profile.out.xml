@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TRACE PUBLIC "trace.dtd" "trace.dtd">
+<TRACE timestamp="1373359705226" dateTimeFormat="yyyy.MM.dd HH:mm:ss z">
+    <SOCREATE soiName="CIL" soiVersion="3_CBIO_2_1_ZAS_1" name="1" timestamp="2019"/>
+    <COMMAND name="SESSION.CHANGE" timestamp="0" so="1">
+        <SVLOBJECT>
+            <LIST name="values">
+                <SVLOBJECT>
+                    <STRING name="KEY" val="BU_ID"/>
+                    <STRING name="VALUE" val="2"/>
+                </SVLOBJECT>
+            </LIST>
+        </SVLOBJECT>
+    </COMMAND>
+    <COMMAND name="CONTRACT_PREPAID_DATA.NEW" timestamp="0" so="1">
+        <SVLOBJECT>
+            <LONG name="CO_ID" val="3128"/>
+            <LONG name="PREPAID_PROFILE_ID" val="1"/>
+        </SVLOBJECT>
+        <RESULT>
+            <SVLOBJECT>
+                <LONG name="CO_ID" val="3128"/>
+                <STRING name="CO_ID_PUB" val="CONTR0000003118"/>
+                <LONG name="PREPAID_PROFILE_ID" val="1"/>
+                <LONG name="IVR_LANG_ID" val="5"/>
+                <STRING name="IVR_LANG_ID_PUB" val="AR"/>
+            </SVLOBJECT>
+        </RESULT>
+    </COMMAND>
+    <TX_COMMIT timestamp="263" so="1"/>
+    <SODISPOSE soiName="CIL" soiVersion="3_CBIO_2_1_ZAS_1" name="1" timestamp="2"/>
+</TRACE>
